@@ -1,0 +1,18 @@
+(Source file)
+Hello from source file -> Use a Java Program to write the contents of this file into a target file
+
+apple
+ball
+cat
+dog
+elephant
+frog
+goat
+horse
+icecream
+jaguar
+kangaroo
+lion
+moscow
+newyork
+owl
