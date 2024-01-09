@@ -32,17 +32,14 @@ public class FileHandling {
             Writer writer = new FileWriter(fileOut);
             BufferedWriter out = new BufferedWriter(writer);
 
-            Scanner scanner = new Scanner(fileIn);
-
 
             ArrayList list = new ArrayList<>();
+            String data ;
 
-
-
-
-            //Reading the file using a integer one by one char and writing it into the target file
-            while (( in.readLine()) != null) {
-                list.add(in.readLine());
+            //Reading the file using bufferedReader line by line  writing it into the target file
+            while ((data = in.readLine()) != null) {
+                writer.write(data+"\n");
+                list.add(data);
             }
 
             reader.close();
