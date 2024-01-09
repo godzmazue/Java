@@ -7,7 +7,7 @@ import java.util.logging.Logger;
 //Program to read a source file and write it into a Target file
 
 
-    class FileReadingException extends Exception {
+class FileReadingException extends Exception {
         public FileReadingException(String message, Throwable cause) {
             super(message, cause);
         }
