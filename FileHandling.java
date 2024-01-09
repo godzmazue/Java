@@ -5,13 +5,15 @@ import java.util.function.Supplier;
 import java.util.logging.Logger;
 
 //Program to read a source file and write it into a Target file
-public class FileHandling {
 
-    class FileHandlingException extends Exception {
-        public FileHandlingException(String message, Throwable cause) {
+
+    class FileReadingException extends Exception {
+        public FileReadingException(String message, Throwable cause) {
             super(message, cause);
         }
     }
+
+public class FileHandling {
 
     public static void main(String[] args) throws FileReadingException {
 
